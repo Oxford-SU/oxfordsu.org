@@ -1,3 +1,23 @@
+/* 
+
+This CSS file is the primary source of style choices for the new oxfordsu.org, as of late 2022.
+
+It originates from a CSS file provided by MSL, as they created a bespoke design for Oxford SU at the time of the new website launch.
+
+As of 13 December 2022, when this file was first added to the SU's Github account, the contents had been significantly changed by SU staff and by Andrew Keenan.
+
+Changes to this file are not reflected live on oxfordsu.org; the CSS must be managed via the MSL backend.
+
+Projects as of December 2022:
+
+- The overall file is very long and repetitive, with lots of overridden and redundant code
+- Styles for specific elements are dispersed widely
+- Overall, the whole file needs significant commenting and refactoring to remain clear and manageable.
+
+*/
+
+
+
 @font-face {
     font-family: 'Calibre Semibold';
     src: url('/assets/site_resources/AnyConv.com__Calibre-Semibold.eot'); /* IE9 Compat Modes */
