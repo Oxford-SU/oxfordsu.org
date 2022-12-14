@@ -3,7 +3,13 @@
     width: 300px;
 }
 
-/* Section Titles */
+/* Section Titles 
+
+2023 - Unnecessary
+
+*/
+
+
 .sectiontitle h2 {
     color: #fff;
     background: #1b242a;
@@ -57,7 +63,12 @@
     color: #00c7b2;
 }
 
-/* Sabb 'blog' styles */
+/* Sabb 'blog' styles 
+2023: Does this tag ever get used?
+
+*/
+
+
 .msl-item-list.msl-news {
     DISPLAY: flex;
     flex-flow: nowrap;
