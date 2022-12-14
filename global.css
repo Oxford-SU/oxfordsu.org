@@ -583,7 +583,9 @@ footer .footerThird {margin:  0;}
 
 
 /* Landing no image */
-.banner-container { padding: 100px 0 150px;}
+/* Trying this without 150px padding at bottom, to fix large green gap on mobile */
+.banner-container { padding: 100px;}
+
 
 .banner-container h1 {
     width: 80%;
