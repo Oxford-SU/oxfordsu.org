@@ -83,7 +83,10 @@ body .page_edit {  background: #fff;}
 
 .list_controls a { height: 10.6em;}
 
-img {height: auto; }
+img {
+    height: auto; 
+    border-radius: 8px;
+}
 
 /* Fonts */
 h1, h3, h4, h5, h6 {margin: 20px 0 15px;}
@@ -620,7 +623,9 @@ footer .footerThird {margin:  0;}
 .sectionCards .moveUp {
     position: relative;
     z-index: 2;
-    top: -200px;}
+    /*top: 200px;*/
+    
+}
 
 .sectionCards li {
     margin: 25px 0;}
