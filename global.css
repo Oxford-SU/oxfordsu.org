@@ -2,9 +2,11 @@
 
 This CSS file is the primary source of style choices for the new oxfordsu.org, as of late 2022.
 
-It originates from a CSS file provided by MSL, as they created a bespoke design for Oxford SU at the time of the new website launch.
+It originates from a CSS file provided by MSL, as they created a bespoke design for Oxford SU at the 
+time of the new website launch.
 
-As of 13 December 2022, when this file was first added to the SU's Github account, the contents had been significantly changed by SU staff and by Andrew Keenan.
+As of 13 December 2022, when this file was first added to the SU's Github account, the contents had been 
+significantly changed by SU staff and by Andrew Keenan.
 
 Changes to this file are not reflected live on oxfordsu.org; the CSS must be managed via the MSL backend.
 
@@ -19,38 +21,38 @@ Known issues as of January 2023:
 
 @font-face {
     font-family: 'Calibre Semibold';
-    src: url('/assets/site_resources/AnyConv.com__Calibre-Semibold.eot'); /* IE9 Compat Modes */
-    src: url('/assets/site_resources/AnyConv.com__Calibre-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/assets/site_resources/AnyConv.com__Calibre-Semibold.woff') format('woff'), /* Modern Browsers */
-         url('/assets/site_resources/AnyConv.com__Calibre-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/assets/site_resources/AnyConv.com__Calibre-Semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.woff') format('woff'), /* Modern Browsers */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'Calibre Regular';
-    src: url('/assets/site_resources/AnyConv.com__Calibre-Regular.eot'); /* IE9 Compat Modes */
-    src: url('/assets/site_resources/AnyConv.com__Calibre-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/assets/site_resources/AnyConv.com__Calibre-Regular.woff') format('woff'), /* Modern Browsers */
-         url('/assets/site_resources/AnyConv.com__Calibre-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/assets/site_resources/AnyConv.com__Calibre-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.eot'); /* IE9 Compat Modes */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.woff') format('woff'), /* Modern Browsers */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'GraebenbachMono Regular';
-    src: url('/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot'); /* IE9 Compat Modes */
-    src: url('/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.woff') format('woff'), /* Modern Browsers */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot'); /* IE9 Compat Modes */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.woff') format('woff'), /* Modern Browsers */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'GraebenbachMono Black';
-    src: url('/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot'); /* IE9 Compat Modes */
-    src: url('/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Black.woff') format('woff'), /* Modern Browsers */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/assets/site_resources/AnyConv.com__GraebenbachMono-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot'); /* IE9 Compat Modes */
+    src: url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.woff') format('woff'), /* Modern Browsers */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
