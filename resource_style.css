@@ -1,31 +1,30 @@
-
 /* document styles */
 .docs {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
 }
 .item {
-    width: 150px;
-    margin: 0 5px 10px;
-    position: relative;
-    background: --dark-green;
+  width: 150px;
+  margin: 0 5px 10px;
+  position: relative;
+  background: #00c7b2;
 }
 .item::after {
-    content: "";
-    width: 0;
-    height: 0;
-    margin-left: -30px;
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    border: 15px solid #fff;
-    border-left: 15px solid transparent;
-    border-top: 15px solid transparent;
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -30px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  border: 15px solid #fff;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
 }
 .item p {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 .item a {
-    color: #fff;
+  color: #fff;
 }
