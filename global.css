@@ -308,7 +308,7 @@ footer a:hover,
 
 .tornPaper:before {
     content: '';
-    background: url(/stylesheet/Oxford22/tornpaperPi.svg);
+    background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperPi.svg);
     position: absolute;
     top: -48px;
     width: 100vw;
@@ -319,12 +319,12 @@ footer a:hover,
 .tornPaper.tornWhite {background: var(--offwhite);}
     
 .tornPaper.tornBlue:before {
-    background: url(/stylesheet/Oxford22/tornpaperBlue.svg);
+    background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperBlue.svg);
     background-position: bottom;
     background-repeat-y: no-repeat; }
     
 .tornPaper.tornWhite:before {
-    background: url(/stylesheet/Oxford22/tornpaperw.svg);
+    background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperw.svg);
     background-position: bottom;
     background-repeat-y: no-repeat; }
 
