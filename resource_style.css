@@ -28,8 +28,7 @@ Governing Documents page to the Articles of Association.
   border-top: 15px solid transparent;
 }
 .item p {
-  padding-bottom: 10px;
-  padding-top: 30px;
+  padding: 10px 10px 10px 10px;
 }
 .item a {
   color: #f3f3f4;
