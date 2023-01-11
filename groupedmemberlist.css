@@ -1,0 +1,97 @@
+/* Member lists */
+.msl-groupedmemberlist {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: stretch;
+}
+
+.msl-groupedmemberlist > .item {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 10px 10px 0;
+  flex: 0 0 150px;
+  position: relative;
+}
+
+.msl-groupedmemberlist > .item:after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -30px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  border: 15px solid #fff;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+.msl-groupedmemberlist > .item h4 {
+  background: #1b242a;
+  margin: 0;
+  padding: 10px;
+  color: #00c7b2;
+  font-family: CalibreRegular, sans-serif;
+  white-space: initial;
+}
+
+.msl-groupedmemberlist ul {
+  padding: 0;
+  /*    margin: 0px -5px; */
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.msl-groupedmemberlist ul li {
+  /*    margin: 0 5px; */
+  background: #1b242a;
+}
+
+.msl-groupedmemberlist ul li .badge {
+  background: transparent;
+  border-radius: 0;
+  font-size: inherit;
+  font-weight: normal;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+.msl-groupedmemberlist ul li .badge dl {
+  margin: 0;
+  padding: 0 10px;
+  width: 150px;
+}
+
+.msl-groupedmemberlist ul li .badge dt {
+}
+
+.msl-groupedmemberlist dt > a,
+.msl-groupedmemberlist dd > a {
+  color: #fff;
+  font-size: 18px;
+  font-family: Graebenbach, sans-serif;
+  white-space: initial;
+}
+
+.msl-groupedmemberlist dt > a:hover,
+.msl-groupedmemberlist dd > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.msl-groupedmemberlist ul li .badge_tools {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+.msl-groupedmemberlist ul li .badge_tools img {
+  padding: 0;
+  border: 0;
+  width: 150px;
+  height: 150px;
+}
