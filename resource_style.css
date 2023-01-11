@@ -9,7 +9,7 @@
     width: 150px;
     margin: 0 5px 10px;
     position: relative;
-    background: #1b242a;
+    background: --dark-green;
 }
 .item::after {
     content: "";
