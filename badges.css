@@ -1,67 +1,165 @@
 .badge {
-	margin: 0;
-	clear: both;
-	border: 1px solid #ccc;
-	padding: 5px;
+  margin: 0;
+  clear: both;
+  border: 1px solid #ccc;
+  padding: 5px;
 }
 .badge_friend {
-
 }
 .badge_tools {
-	width: 110px;
-	padding: 4px;
-	float: left;
+  width: 110px;
+  padding: 4px;
+  float: left;
 }
 .badge_avatar {
-	border: 1px solid #ccc;
-	margin-bottom: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
 }
 .badge_tools ul {
-	display: block;
+  display: block;
 }
 .badge_tools li {
-	display: inline;
+  display: inline;
 }
 a.addfriend {
-	display: block;
+  display: block;
 }
 .badge dl {
-	margin: 0;
-	padding: 4px;
+  margin: 0;
+  padding: 4px;
 }
 .badge dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 .badge dd {
 }
 .highlight {
-	background: #fcc;
+  background: #fcc;
 }
 
 .msl_badge_add_friend {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/user1_add.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/user1_add.gif) no-repeat 0 0;
 }
 
 .msl_badge_delete_friend {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/user1_delete.png) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/user1_delete.png) no-repeat 0 0;
 }
 
 .msl_badge_view_friends {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/users1.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/users1.gif) no-repeat 0 0;
 }
 
 .msl_badge_view_photos {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/photo_scenery.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/photo_scenery.gif) no-repeat 0
+    0;
+}
+
+/* Member lists */
+.msl-groupedmemberlist {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: stretch;
+}
+
+.msl-groupedmemberlist > .item {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 10px 10px 0;
+  flex: 0 0 150px;
+  position: relative;
+}
+
+.msl-groupedmemberlist > .item:after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -30px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  border: 15px solid #fff;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+.msl-groupedmemberlist > .item h4 {
+  background: #1b242a;
+  margin: 0;
+  padding: 10px;
+  color: #00c7b2;
+  font-family: CalibreRegular, sans-serif;
+  white-space: initial;
+}
+
+.msl-groupedmemberlist ul {
+  padding: 0;
+  /*    margin: 0px -5px; */
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.msl-groupedmemberlist ul li {
+  /*    margin: 0 5px; */
+  background: #1b242a;
+}
+
+.msl-groupedmemberlist ul li .badge {
+  background: transparent;
+  border-radius: 0;
+  font-size: inherit;
+  font-weight: normal;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+.msl-groupedmemberlist ul li .badge dl {
+  margin: 0;
+  padding: 0 10px;
+  width: 150px;
+}
+
+.msl-groupedmemberlist ul li .badge dt {
+}
+
+.msl-groupedmemberlist dt > a,
+.msl-groupedmemberlist dd > a {
+  color: #fff;
+  font-size: 18px;
+  font-family: Graebenbach, sans-serif;
+  white-space: initial;
+}
+
+.msl-groupedmemberlist dt > a:hover,
+.msl-groupedmemberlist dd > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.msl-groupedmemberlist ul li .badge_tools {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+.msl-groupedmemberlist ul li .badge_tools img {
+  padding: 0;
+  border: 0;
+  width: 150px;
+  height: 150px;
 }
