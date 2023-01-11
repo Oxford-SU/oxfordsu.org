@@ -33,4 +33,9 @@ Governing Documents page to the Articles of Association.
 .item a {
   color: #f3f3f4;
 }
+
+.item img {
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
     
