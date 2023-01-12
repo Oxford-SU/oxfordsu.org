@@ -84,6 +84,7 @@ are refactored elsewhere.
   background: #00c7b2;
   margin: 0 5px 10px;
   white-space: initial;
+  box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
 }
 .newslist .msl-item::after {
   content: "";
