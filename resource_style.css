@@ -14,19 +14,10 @@ Governing Documents page to the Articles of Association.
   margin: 0 5px 10px;
   position: relative;
   background: #00c7b2;
+  box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
 }
-.item::after {
-  content: "";
-  width: 0;
-  height: 0;
-  margin-left: -30px;
-  position: absolute;
-  bottom: 0;
-  left: 102%;
-  border: 15px solid #f3f3f4;
-  border-left: 15px solid transparent;
-  border-top: 15px solid transparent;
-}
+
+
 .item p {
   padding: 10px 10px 0px 10px;
 }
