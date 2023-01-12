@@ -83,10 +83,9 @@ are refactored elsewhere.
   padding: 10px 10px 0 10px;
   background: #00c7b2;
   margin: 0 5px 10px;
-
   white-space: initial;
 }
-.newslist .msl-item:after {
+.newslist .msl-item::after {
   content: "";
   width: 0;
   height: 0;
@@ -140,9 +139,9 @@ body ul.msl_organisation_list {
   height: auto;
 }
 body ul.msl_organisation_list li {
-  background: #1b242a;
+  background: #00c7b2;
   text-align: left;
-  min-width: 300px;
+  /* min-width: 300px; */
   width: 300px;
 }
 body ul.msl_organisation_list li:after {
@@ -158,7 +157,7 @@ body ul.msl_organisation_list li:after {
   border-top: 15px solid transparent;
 }
 body ul.msl_organisation_list li a {
-  color: #fff;
+  color: #f3f3f4;
   white-space: initial;
 }
 body ul.msl_organisation_list li a:last-of-type {
