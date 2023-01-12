@@ -101,6 +101,7 @@ are refactored elsewhere.
 .newslist .msl-item h3 {
   font-size: 18px;
   margin: 0;
+  padding: 10px 0 0 0;
 }
 .newslist .msl-item a {
   font-size: 18px;
