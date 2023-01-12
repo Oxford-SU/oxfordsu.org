@@ -79,10 +79,9 @@ are refactored elsewhere.
 .newslist .msl-item {
   display: inline-block;
   border: 0;
-  min-width: 300px;
-  width: 300px;
+  width: 150px;
   padding: 10px 10px 0 10px;
-  background: #1b242a;
+  background: #00c7b2;
   margin: 0 5px 10px;
 
   white-space: initial;
