@@ -145,6 +145,8 @@ body ul.msl_organisation_list li {
   text-align: left;
   /* min-width: 300px; */
   width: 300px;
+  border-radius: 8px;
+  box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
 }
 body ul.msl_organisation_list li:after {
   content: "";
