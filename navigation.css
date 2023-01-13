@@ -117,7 +117,7 @@ header .desk-menu .logo-adn a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-position: 0;
-  background-image: url("oxford-dev.ukmsl.net/stylesheet/Oxford22/logoweb.svg");
+  background-image: url("https://oxford-dev.ukmsl.net/stylesheet/Oxford22/logoweb.svg");
   color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-size: contain;
