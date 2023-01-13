@@ -1038,7 +1038,7 @@ footer .footerSecond {
   box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 5%);
   display: none;
   background: #fff;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
 }
 
 #societies ul.msl_organisation_list li:hover,
