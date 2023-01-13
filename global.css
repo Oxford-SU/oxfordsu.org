@@ -289,7 +289,7 @@ footer a:hover,
   border-radius: 0;
   box-shadow: 4px 4px black;
   margin-top: 20px;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 .buttonCTA i {
@@ -1124,6 +1124,9 @@ footer .footerSecond {
     width: calc(100% / 2 - 20px);
     max-width: calc(100% / 2 - 20px);
     flex-grow: 1;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
   }
 }
 @media all and (min-width: 768px) {
@@ -1243,7 +1246,7 @@ footer .footerSecond {
 }
 
 .badge {
-  margin: 0;
+  margin: 3px;
   clear: both;
   border: 1px solid #ccc;
   padding: 5px;
@@ -1251,80 +1254,78 @@ footer .footerSecond {
   padding: 0.35em 0.65em;
   font-size: 1em;
   font-weight: 700;
-  font: #fff;
   line-height: 1;
   color: #f3f3f4;
   text-align: center;
   /* white-space: nowrap; */
   vertical-align: baseline;
   border-radius: 0.25rem;
-
 }
 
 .badge {
-	margin: 0;
-	clear: both;
-	border: 1px solid #ccc;
-	padding: 5px;
+  margin: 0;
+  clear: both;
+  border: 1px solid #ccc;
+  padding: 5px;
 }
 .badge_friend {
-
 }
 .badge_tools {
-	width: 110px;
-	padding: 4px;
-	float: left;
+  width: 110px;
+  padding: 4px;
+  float: left;
 }
 .badge_avatar {
-	border: 1px solid #ccc;
-	margin-bottom: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
 }
 .badge_tools ul {
-	display: block;
+  display: block;
 }
 .badge_tools li {
-	display: inline;
+  display: inline;
 }
 a.addfriend {
-	display: block;
+  display: block;
 }
 .badge dl {
-	margin: 0;
-	padding: 4px;
+  margin: 0;
+  padding: 4px;
 }
 .badge dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 .badge dd {
 }
 .highlight {
-	background: #fcc;
+  background: #fcc;
 }
 
 .msl_badge_add_friend {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/user1_add.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/user1_add.gif) no-repeat 0 0;
 }
 
 .msl_badge_delete_friend {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/user1_delete.png) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/user1_delete.png) no-repeat 0 0;
 }
 
 .msl_badge_view_friends {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/users1.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/users1.gif) no-repeat 0 0;
 }
 
 .msl_badge_view_photos {
-	padding: 0 0 0 18px;
-	display: inline-block;
-	min-height: 16px;
-	background: transparent url(../images/icons/16/photo_scenery.gif) no-repeat 0 0;
+  padding: 0 0 0 18px;
+  display: inline-block;
+  min-height: 16px;
+  background: transparent url(../images/icons/16/photo_scenery.gif) no-repeat 0
+    0;
 }
