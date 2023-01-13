@@ -1142,12 +1142,12 @@ footer .footerSecond {
   }
 }
 
-@media all and (min-width: 1200px) {
+/* @media all and (min-width: 1200px) {
   #societies ul.msl_organisation_list li {
     width: calc(100% / 5 - 20px);
     max-width: calc(100% / 2 - 20px);
   }
-}
+} */
 
 /* Social icons */
 [id="group-social"] {
