@@ -289,7 +289,7 @@ footer a:hover,
   border-radius: 0;
   box-shadow: 4px 4px black;
   margin-top: 20px;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 .buttonCTA i {
