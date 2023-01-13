@@ -1033,7 +1033,7 @@ footer .footerSecond {
   margin: 0;
 }
 #societies ul.msl_organisation_list li,
-.squares-events .event_item {
+.squares-events .event_item .msl-groupedmemberlist {
   margin: 20px 0;
   box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 5%);
   display: none;
