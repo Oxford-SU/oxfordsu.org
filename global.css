@@ -1260,3 +1260,8 @@ footer .footerSecond {
   border-radius: 0.25rem;
 
 }
+
+.badge_avatar {
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
