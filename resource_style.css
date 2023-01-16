@@ -33,7 +33,14 @@ Governing Documents page to the Articles of Association.
   padding: 10px 10px 0px 10px;
 }
 
+.item h6 {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 10px 0px 10px;
+}
+
 .item img {
   width: 100%;
   padding: 10px 10px 0 10px;
+  border-radius: 8px;
 }
