@@ -122,6 +122,12 @@ img {
   display: block;
 }
 
+inverted {
+  filter: invert(1)
+
+}
+
+
 /* Fonts */
 
 p {
