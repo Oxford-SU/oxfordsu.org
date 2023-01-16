@@ -18,17 +18,22 @@ Governing Documents page to the Articles of Association.
   border-radius: 8px;
 }
 
-
 .item p {
   padding: 10px 10px 0px 10px;
-  text-align: center
+  text-align: center;
 }
+
 .item a {
   color: #f3f3f4;
+}
+
+.item h2 {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
 }
 
 .item img {
   width: 100%;
   padding: 10px 10px 0 10px;
 }
-    
