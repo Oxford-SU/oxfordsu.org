@@ -3258,12 +3258,14 @@ a.reviewBasket:hover {
   text-decoration: underline !important;
 }
 
+/* Defines banner spacing on smaller media widths */
 .margTop {
   margin: 0 0 50px 0 !important;
 }
 
+/* Defines banner spacing on wider media widths */
 @media (min-width: 992px) {
   .margTop {
-    margin-top: 160px !important;
+    margin-top: 0 0 50px 0 !important;
   }
 }
