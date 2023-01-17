@@ -461,7 +461,6 @@ footer a:hover,
 .search_events .event:hover,
 .search_news .news_item:hover,
 .secNavStyle li:hover,
-.item:hover,
 .eventsNavigation .event_item:hover {
   background: var(--offwhite);
 }
