@@ -123,10 +123,8 @@ img {
 }
 
 .inverted {
-  filter: invert(1)
-
+  filter: invert(1);
 }
-
 
 /* Fonts */
 
@@ -629,7 +627,7 @@ footer {
 }
 footer.tornPaper {
   background: var(--light-green);
-  margin-top: 0;
+  margin-top: -50px;
 }
 
 .page_edit footer.tornPaper,
