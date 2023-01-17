@@ -55,6 +55,6 @@ This is used in places like:
   border-radius: 8px;
 }
 
-.item {
+.item:hover {
   background: var(--darkgreen);
 }
