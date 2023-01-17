@@ -1,14 +1,21 @@
 /* 
 
-This document defines the appearance of links to external resources, such as the link on the 
-Governing Documents page to the Articles of Association.
+This CSS document defines the appearance of the 'Green Button' design pattern.
+
+This is used in places like:
+- Trustee Board members and papers
+- Sabbatical Officer blogs and pledges
 
 */
+
+/* Wrap a div with this class around all of the items */
 .docs {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -5px;
 }
+
+/* Wrap a div with this class around each individual item */
 .item {
   width: 150px;
   margin: 0 5px 10px;
@@ -18,13 +25,10 @@ Governing Documents page to the Articles of Association.
   border-radius: 8px;
 }
 
+/* These style any regular text within the item */
 .item p {
   padding: 10px 10px 0px 10px;
   text-align: center;
-}
-
-.item a {
-  color: #f3f3f4;
 }
 
 .item h2 {
@@ -39,6 +43,12 @@ Governing Documents page to the Articles of Association.
   padding: 10px 10px 0px 10px;
 }
 
+/* This styles links within the item */
+.item a {
+  color: #f3f3f4;
+}
+
+/* This styles imgs within the item */
 .item img {
   width: 100%;
   padding: 10px 10px 0 10px;
