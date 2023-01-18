@@ -279,7 +279,8 @@ footer a:hover,
 }
 
 /* Buttons */
-.buttonCTA {
+.buttonCTA,
+.button {
   background: var(--magenta);
   padding: 7px 20px;
   color: white;
