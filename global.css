@@ -402,8 +402,8 @@ footer a:hover,
 
 @media (min-width: 1200px) {
   .imageNav.sixCols li {
-    width: calc(100% / 6 - 18px);
-    max-width: calc(100% / 6 - 18px);
+    width: calc(100% / 6 - 20px);
+    max-width: calc(100% / 6 - 20px);
   }
 }
 
