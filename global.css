@@ -225,6 +225,7 @@ footer a:hover,
   list-style: none;
 }
 
+/* This seems to define the green dot on lists */
 .sectionContent ul li:before {
   content: "\2022";
   color: var(--light-green);
@@ -1058,7 +1059,8 @@ footer .footerSecond {
 #filters li:before,
 #societies ul.msl_organisation_list li .msl-gl-attributes,
 .squares-events .event_item .msl_event_description,
-.squares-events .event_item .msl_event_hook {
+.squares-events .event_item .msl_event_hook,
+.imageNav {
   display: none;
 }
 
