@@ -1060,7 +1060,7 @@ footer .footerSecond {
 #societies ul.msl_organisation_list li .msl-gl-attributes,
 .squares-events .event_item .msl_event_description,
 .squares-events .event_item .msl_event_hook,
-.item .imageNav li:before {
+.item .imageNav ul li:before {
   display: none;
 }
 
