@@ -281,7 +281,7 @@ footer a:hover,
 /* Buttons */
 .buttonCTA,
 .button {
-  background: var(--magenta);
+  background: #f0698e;
   padding: 7px 20px;
   color: white;
   border: 2px solid #000;
@@ -305,7 +305,10 @@ footer a:hover,
 
 .buttonCTA:hover,
 .buttonCTA:focus,
-.buttonCTA:active {
+.buttonCTA:active,
+.button:hover,
+.button:focus,
+.button:active {
   background-color: var(--magenta) !important;
   color: black;
   box-shadow: 0px 0px var(--light-green);
