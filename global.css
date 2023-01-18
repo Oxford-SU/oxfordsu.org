@@ -283,15 +283,15 @@ footer a:hover,
 /* Buttons */
 .buttonCTA,
 .button {
-  background: #f0698e;
-  padding: 7px 20px;
-  color: white;
-  border: 2px solid #000;
-  display: inline-block;
-  vertical-align: middle;
-  user-select: none;
-  font-size: 1rem;
-  font-weight: 700;
+  background: #f0698e !important;
+  padding: 7px 20px !important;
+  color: white !important;
+  border: 2px solid #000 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  user-select: none !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
   text-align: left;
   border-radius: 0;
   box-shadow: 4px 4px black;
