@@ -226,7 +226,7 @@ footer a:hover,
 }
 
 /* This seems to define the green dot on lists */
-.sectionContent ul li:before {
+/* .sectionContent ul li:before {
   content: "\2022";
   color: var(--light-green);
   font-weight: bold;
@@ -234,7 +234,7 @@ footer a:hover,
   width: 0.7em;
   margin-left: -0.5em;
   font-size: 1.5rem;
-}
+} */
 
 .sectionContent #admin_page_content ul li:before,
 .sectionContent .sidecol ul li:before,
