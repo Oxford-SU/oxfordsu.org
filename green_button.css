@@ -9,14 +9,14 @@ This is used in places like:
 */
 
 /* Wrap a div with this class around all of the items */
-.docs {
+.green_button_section {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -5px;
 }
 
 /* Wrap a div with this class around each individual item */
-.item {
+.green_button {
   width: 150px;
   margin: 0 5px 10px;
   position: relative;
@@ -26,42 +26,42 @@ This is used in places like:
 }
 
 /* These style any regular text within the item */
-.item p {
+.green_button p {
   padding: 10px 10px 0px 10px;
   text-align: center;
 }
 
-.item h2 {
+.green_button h2 {
   font-size: 18px;
   color: #fff;
   padding: 10px 10px 0px 10px;
 }
 
-.item h6 {
+.green_button h6 {
   font-size: 14px;
   color: #fff;
   padding: 10px 10px 0px 10px;
 }
 
 /* This styles links within the item */
-.item a {
+.green_button a {
   color: #f3f3f4;
 }
 
 /* This styles imgs within the item
-.item img {
+.green_button img {
   width: 100%;
   padding: 10px 10px 0 10px;
   border-radius: 8px;
 } */
 
-.item img {
+.green_button img {
   height: 130px;
   width: 130px;
   padding: 10px 10px 0 10px;
   border-radius: 8px;
 }
 
-.item:hover {
+.green_button:hover {
   background: #33d2c1;
 }
