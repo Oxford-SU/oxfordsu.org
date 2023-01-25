@@ -838,6 +838,10 @@ footer .footerSecond {
   padding-bottom: 140px;
 }
 
+.sectionContent p {
+  font-size: 1.2rem;
+}
+
 /* Sidebar */
 
 .g-subnav .grouping-logo img {
