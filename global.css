@@ -246,6 +246,7 @@ footer a:hover,
 .sectionContent ol {
   list-style: none;
   counter-reset: li;
+  font-size: 1.2rem;
 }
 
 .sectionContent ol li:before {
@@ -838,9 +839,9 @@ footer .footerSecond {
   padding-bottom: 140px;
 }
 
-.sectionContent p {
+/* .sectionContent p {
   font-size: 1.2rem;
-}
+} */
 
 /* Sidebar */
 
