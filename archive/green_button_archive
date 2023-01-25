@@ -1,0 +1,67 @@
+/* 
+
+This CSS document defines the appearance of the 'Green Button' design pattern.
+
+This is used in places like:
+- Trustee Board members and papers
+- Sabbatical Officer blogs and pledges
+
+*/
+
+/* Wrap a div with this class around all of the items */
+.docs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+/* Wrap a div with this class around each individual item */
+.item {
+  width: 150px;
+  margin: 0 5px 10px;
+  position: relative;
+  background: #00c7b2;
+  box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
+  border-radius: 8px;
+}
+
+/* These style any regular text within the item */
+.item p {
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+
+.item h2 {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 10px 0px 10px;
+}
+
+.item h6 {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 10px 0px 10px;
+}
+
+/* This styles links within the item */
+.item a {
+  color: #f3f3f4;
+}
+
+/* This styles imgs within the item
+.item img {
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  border-radius: 8px;
+} */
+
+.item img {
+  height: 130px;
+  width: 130px;
+  padding: 10px 10px 0 10px;
+  border-radius: 8px;
+}
+
+.item:hover {
+  background: #33d2c1;
+}
