@@ -52,11 +52,11 @@
 .msl-groupedmemberlist ul li .badge {
   background: transparent;
   border-radius: 0;
-  font-size: inherit;
+  font-size: 5rem;
   font-weight: normal;
   border: none;
   padding: 0;
-  text-align: left;
+  text-align: right;
 }
 
 .msl-groupedmemberlist ul li .badge dl {
