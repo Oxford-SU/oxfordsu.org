@@ -1128,7 +1128,7 @@ footer .footerSecond {
 
 @media all and (min-width: 450px) {
   #societies ul.msl_organisation_list,
-  .squares-events .msl_eventlist > div {
+  .squares-events .msl_eventlist .msl-groupedmemberlist > div {
     display: flex;
     flex-wrap: wrap;
   }
