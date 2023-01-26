@@ -1288,9 +1288,9 @@ footer .footerSecond {
 /* .badge_friend {
 } */
 .badge_tools {
-  width: 110px;
+  width: inherit;
   padding: 4px;
-  float: left;
+  float: inherit;
 }
 .badge_avatar {
   border: 1px solid #ccc;
@@ -1417,10 +1417,4 @@ This is used in places like:
   background: #33d2c1;
 }
 
-/* 
-Grouped member list test
-*/
 
-#YY p a {
-  font-size: 5rem;
-}
