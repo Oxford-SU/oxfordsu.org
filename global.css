@@ -1421,6 +1421,6 @@ This is used in places like:
 Grouped member list test
 */
 
-#YY p {
+#YY p a {
   font-size: 5rem;
 }
