@@ -1417,4 +1417,11 @@ This is used in places like:
   background: #33d2c1;
 }
 
+/*
+Grouped member list experiments
+*/
 
+#YY .sectionContent ul {
+  list-style: none;
+  display: flex;
+}
