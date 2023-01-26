@@ -1285,8 +1285,8 @@ footer .footerSecond {
   border: 1px solid #ccc;
   padding: 5px;
 }
-.badge_friend {
-}
+/* .badge_friend {
+} */
 .badge_tools {
   width: 110px;
   padding: 4px;
@@ -1312,8 +1312,8 @@ a.addfriend {
 .badge dt {
   font-weight: bold;
 }
-.badge dd {
-}
+/* .badge dd {
+} */
 .highlight {
   background: #fcc;
 }
@@ -1415,4 +1415,12 @@ This is used in places like:
 
 .green_button:hover {
   background: #33d2c1;
+}
+
+/* 
+Grouped member list test
+*/
+
+#YY {
+  font-size: 5rem;
 }
