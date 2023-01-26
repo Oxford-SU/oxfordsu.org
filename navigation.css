@@ -1,3 +1,19 @@
+/*
+This CSS styles the navigation menus across Oxford SU's website. 
+
+It powers the primary (top-level), secondary and tertiary menus, and 
+their behaviour across different screen sizes.
+
+As of January 2023 it has not been extensively refactored or reviewed.
+
+The next task is to determine the key 'sections' and see if any simplification
+can be achieved.
+
+For example, collating all of the specifications for mobile, or for specific 
+screen sizes, in one place.
+
+*/
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -850,14 +866,14 @@ header.small .desk-menu .box-menu ul li a {
     padding: 0 10px;
   }
 
-  header
+  /* header
     .desk-menu
     .menu-container
     .menu
     li.menu-item-has-children
     .level_2.sub-menu.open-sub
     > .msl-itemhassubnav {
-  }
+  } */
 
   header
     .desk-menu
@@ -1123,10 +1139,10 @@ header.small .desk-menu .menu-container .menu-header-container ul.navbar-nav {
     color: white;
   }
 
-  header .desk-menu .menu-container .menu li > a:hover {
-    /*background: white !important;
-      color: #4f2764 !important;*/
-  }
+  /* header .desk-menu .menu-container .menu li > a:hover {
+    background: white !important;
+      color: #4f2764 !important;
+  } */
 
   header .desk-menu .menu-container .menu > ul > li > a.current span,
   header .desk-menu .menu-container .menu > ul > li > a:hover span {
