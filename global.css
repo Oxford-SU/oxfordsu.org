@@ -412,7 +412,7 @@ footer a:hover,
 .tornPaper {
   position: relative;
   padding: 40px 0;
-  margin-top: 110px;
+  /* margin-top: 110px; */
 }
 
 .tornPaper:before {
