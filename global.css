@@ -1431,6 +1431,7 @@ Grouped member list experiments
 .msl-groupedmemberlist ul {
   list-style: none;
   display: inline-flex;
+  padding-left: 0rem;
 }
 
 .msl-groupedmemberlist li {
