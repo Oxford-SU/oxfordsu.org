@@ -1278,13 +1278,19 @@ footer .footerSecond {
   border-radius: 0.25rem;
   background: #00c7b2;
   width: 150px;
+  box-shadow: 6px 7px 9px 0 rgb(0 0 0 / 15%);
+  border-radius: 8px;
 }
 
 .badge {
-  margin: 0;
+  /* margin: 0; */
   clear: both;
   /* border: 1px solid #ccc; */
   padding: 5px;
+}
+
+.badge:hover {
+  background: #33d2c1;
 }
 /* .badge_friend {
 } */
