@@ -1264,14 +1264,14 @@ footer .footerSecond {
 .badge {
   margin: 3px;
   clear: both;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 5px;
   display: inline-block;
   padding: 0.35em 0.65em;
   font-size: 1em;
   font-weight: 700;
   line-height: 1;
-  color: #f3f3f4;
+  /* color: #f3f3f4; */
   text-align: center;
   /* white-space: nowrap; */
   vertical-align: baseline;
@@ -1282,7 +1282,7 @@ footer .footerSecond {
 .badge {
   margin: 0;
   clear: both;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 5px;
 }
 /* .badge_friend {
