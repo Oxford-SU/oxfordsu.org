@@ -412,7 +412,6 @@ footer a:hover,
 .tornPaper {
   position: relative;
   padding: 40px 0;
-  /* margin-top: 110px; */
 }
 
 .tornPaper:before {
@@ -1424,4 +1423,23 @@ Grouped member list experiments
 #YY .sectionContent ul {
   list-style: none;
   display: flex;
+}
+
+.msl-groupedmemberlist ul {
+  list-style: none;
+}
+
+.msl-groupedmemberlist li {
+  position: relative;
+}
+
+.msl-groupedmemberlist .badge_tools ul {
+  bottom: 10px;
+  display: block;
+  left: 120px;
+  position: absolute;
+}
+
+.msl-groupedmemberlist .badge dl {
+  margin-bottom: 23px;
 }
