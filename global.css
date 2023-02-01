@@ -1448,6 +1448,8 @@ Grouped member list experiments
   text-transform: uppercase;
   font-family: "GraebenbachMono Regular";
   color: #000;
+  font-size: calc(1.325rem + 1.5vw);
+  /* font-size: 18px; */
 }
 
 .msl-groupedmemberlist .badge dl {
