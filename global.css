@@ -1440,12 +1440,11 @@ Grouped member list experiments
   text-decoration: none;
   text-transform: uppercase;
   font-family: "GraebenbachMono Regular";
-  colour: #000;
+  color: #000;
 }
 
 .msl-groupedmemberlist a {
   color: #000;
-  
 }
 
 .msl-groupedmemberlist h4 {
