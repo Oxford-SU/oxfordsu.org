@@ -1393,6 +1393,7 @@ This is used in places like:
   font-size: 18px;
   color: #fff;
   padding: 10px 10px 0px 10px;
+  word-break: break-word;
 }
 
 .green_button h6 {
