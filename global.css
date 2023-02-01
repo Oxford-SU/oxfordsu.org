@@ -1420,13 +1420,9 @@ This is used in places like:
 Grouped member list experiments
 */
 
-#YY .sectionContent ul {
-  list-style: none;
-  display: flex;
-}
-
 .msl-groupedmemberlist ul {
   list-style: none;
+  display: inline-flex;
 }
 
 .msl-groupedmemberlist li {
