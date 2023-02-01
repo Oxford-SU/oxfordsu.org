@@ -1453,6 +1453,11 @@ Grouped member list experiments
   font-size: 18px;
 }
 
+.msl-groupedmemberlist img {
+  height: 120px;
+  display: inline;
+}
+
 .msl-groupedmemberlist .badge dl {
   margin-bottom: 23px;
 }
