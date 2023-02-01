@@ -1265,7 +1265,7 @@ footer .footerSecond {
   margin: 3px;
   clear: both;
   /* border: 1px solid #ccc; */
-  padding: 5px;
+  padding: 10px 10px 0px 10px;
   display: inline-block;
   padding: 0.35em 0.65em;
   font-size: 1em;
