@@ -1436,6 +1436,11 @@ Grouped member list experiments
   position: absolute;
 }
 
+.msl-groupedmemberlist a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .msl-groupedmemberlist .badge dl {
   margin-bottom: 23px;
 }
