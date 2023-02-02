@@ -1400,6 +1400,7 @@ This is used in places like:
   font-size: 14px;
   color: #fff;
   padding: 10px 10px 0px 10px;
+  word-break: break-word;
 }
 
 /* This styles links within the item */
