@@ -1472,7 +1472,7 @@ Grouped member list experiments
 
 .msl-groupedmemberlist .memberitem {
   display: flex;
-  /* flex-direction: column-reverse; */
+  flex-direction: column-reverse;
   margin: 0 10px 10px 0;
   flex: 0 0 150px;
   position: relative;
