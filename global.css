@@ -1261,7 +1261,7 @@ footer .footerSecond {
   font-family: FontAwesome;
 }
 
-.badge {
+.badge:not(.quantity) {
   margin: 3px;
   clear: both;
   /* border: 1px solid #ccc; */
