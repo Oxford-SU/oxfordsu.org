@@ -1480,7 +1480,7 @@ Grouped member list experiments
   position: relative;
 }
 
-.groupedmemberlistWrapped {
+.msl-groupedmemberlist .groupedmemberlistWrapped {
   display: inline-block;
   vertical-align: top;
   margin-right: 30px;
