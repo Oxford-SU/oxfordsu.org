@@ -1376,7 +1376,7 @@ This is used in places like:
 
 /* Wrap a div with this class around each individual item */
 .green_button {
-  width: 150px;
+  width: 160px;
   margin: 0 5px 10px;
   position: relative;
   background: #00c7b2;
