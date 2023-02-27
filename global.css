@@ -395,8 +395,8 @@ footer a:hover,
 
 @media (min-width: 769px) {
   .imageNav:not(.twoCols) li {
-    width: calc(100% / 4 - 20px);
-    max-width: calc(100% / 4 - 20px);
+    width: calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 20px);
     margin: 0 10px 20px;
   }
 }
