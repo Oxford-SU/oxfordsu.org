@@ -22,69 +22,69 @@ Known issues as of January 2023:
 
 @font-face {
   font-family: "Calibre Semibold";
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.eot"); /* IE9 Compat Modes */
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.eot?#iefix")
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Semibold.eot"); /* IE9 Compat Modes */
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Semibold.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.woff")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Semibold.woff")
       format("woff"),
     /* Modern Browsers */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.ttf")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Semibold.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Semibold.svg#svgFontName")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Semibold.svg#svgFontName")
       format("svg"); /* Legacy iOS */
 }
 
 @font-face {
   font-family: "Calibre Regular";
 
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.eot"); /* IE9 Compat Modes */
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Regular.eot"); /* IE9 Compat Modes */
 
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.eot?#iefix")
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.woff")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Regular.woff")
       format("woff"),
     /* Modern Browsers */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.ttf")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__Calibre-Regular.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__Calibre-Regular.svg#svgFontName")
+      url("https://oxfordsu.orgassets/site_resources/AnyConv.com__Calibre-Regular.svg#svgFontName")
       format("svg"); /* Legacy iOS */
 }
 
 @font-face {
   font-family: "GraebenbachMono Regular";
 
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot"); /* IE9 Compat Modes */
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot"); /* IE9 Compat Modes */
 
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot?#iefix")
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.woff")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.woff")
       format("woff"),
     /* Modern Browsers */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.ttf")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.svg#svgFontName")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Regular.svg#svgFontName")
       format("svg"); /* Legacy iOS */
 }
 
 @font-face {
   font-family: "GraebenbachMono Black";
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot"); /* IE9 Compat Modes */
-  src: url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot?#iefix")
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot"); /* IE9 Compat Modes */
+  src: url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Black.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.woff")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Black.woff")
       format("woff"),
     /* Modern Browsers */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.ttf")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Black.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("https://oxford-dev.ukmsl.net/assets/site_resources/AnyConv.com__GraebenbachMono-Black.svg#svgFontName")
+      url("https://oxfordsu.org/assets/site_resources/AnyConv.com__GraebenbachMono-Black.svg#svgFontName")
       format("svg"); /* Legacy iOS */
 }
 
@@ -416,7 +416,7 @@ footer a:hover,
 
 .tornPaper:before {
   content: "";
-  background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperPi.svg);
+  background: url(https://oxfordsu.org/stylesheet/Oxford22/tornpaperPi.svg);
   position: absolute;
   top: -48px;
   width: 100vw;
@@ -430,13 +430,13 @@ footer a:hover,
 }
 
 .tornPaper.tornBlue:before {
-  background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperBlue.svg);
+  background: url(https://oxfordsu.org/stylesheet/Oxford22/tornpaperBlue.svg);
   background-position: bottom;
   background-repeat-y: no-repeat;
 }
 
 .tornPaper.tornWhite:before {
-  background: url(https://oxford-dev.ukmsl.net/stylesheet/Oxford22/tornpaperw.svg);
+  background: url(https://oxfordsu.org/stylesheet/Oxford22/tornpaperw.svg);
   background-position: bottom;
   background-repeat-y: no-repeat;
 }
