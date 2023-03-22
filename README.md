@@ -6,15 +6,21 @@ Oxford SU delivers a wide range of services to its members, and the majority of 
 
 ### Documentation
 
-Docs for the SU's digital systems can be found in the wiki.
+Docs for the SU's digital systems can be found in the wiki. These docs are for staff and student officers, to aid in their administration of student-facing services.
 
-It contains:
+- Volunteering
+- Find my Rep
+- Student Council
+- Elections and referenda
+- Target Schools minisite
 
-- Commented and tidied-up CSS files
-- A wiki for staff to use when updating and expanding the website
-- Definitive versions of reusable code snippets, such as the Javascript for accordions
-- Guides of how functions are deployed and how they can be maintained
-- Archived versions of old page HTML and code snippets
+### Resources
+
+Files, code snippets and templates are kept in the Code section of this repository. 
+
+- The definitive CSS files for the website
+- Code snippets for accordions
+- An archive of templates and files that are no longer in use
 
 ### Development roadmap
 
