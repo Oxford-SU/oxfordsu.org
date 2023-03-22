@@ -24,4 +24,4 @@ Files, code snippets and templates are kept in the Code section of this reposito
 
 ### Development roadmap
 
-Primarily focused on our website, [oxfordsu.org](https://www.oxfordsu.org/), this repository also hosts our [Digital roadmap](https://github.com/users/Oxford-SU/projects/2) - an evolving list of feature developments and ideas.
+Primarily focused on our website, [oxfordsu.org](https://www.oxfordsu.org/), this repository also hosts our [digital roadmap](https://github.com/users/Oxford-SU/projects/2) - an evolving list of feature developments and ideas.
